@@ -1,0 +1,264 @@
+.container-login {
+	width: 450px;
+	background-color: white;
+	margin: 2rem auto;
+	box-shadow: 0 0 10px #888;
+	border-radius: 10px;
+}
+body {
+	font-family: sans-serif;
+ 
+	overflow: hidden;
+}
+.header {
+	padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  padding-left: 4rem;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+	color: #333;
+	font-size: 2rem;
+}
+
+.main-login {
+ 	 padding-top: 3rem;
+	text-align: center;
+	color: #333;
+
+}
+
+.main-login span {
+	position: relative;
+}
+
+.main-login span i {
+	position: absolute;
+	bottom: 0;
+	color: #888;
+}
+
+.main-login input {
+	width: 290px;
+	height: 35px;
+	margin-bottom: 35px;
+	border:none;
+	outline: none;
+	padding-left: 25px;
+	border-bottom: 2px solid #ccc;
+	color: #333;
+	box-sizing: border-box;
+	font-size: 15px;
+	transition: .2s;
+}
+
+.main-login input:hover {
+	border-bottom: 2px solid #888;
+	
+}
+.main-login input:focus{
+	border-bottom: 2px solid #888;
+}
+
+.main-login button {
+	border:none;
+	outline: none;
+	width: 300px;
+	height: 40px;
+  background:linear-gradient( to top  right, orange 50%, #ec4300 70%);
+	border-radius: 25px;
+	font-size: 17px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-top: 40px;
+	letter-spacing: 1px;
+	transition: .2s;
+}
+
+.main-login button:hover {
+	filter: brightness(.8);
+}
+
+.main-login p {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.social {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.social a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: blue;
+	color: white;
+	line-height: 35px;
+	margin: 5px;
+	transition: .2s;
+}
+
+.social a:nth-child(2){
+	background-color: #00acee;
+}
+
+.social a:nth-child(3){
+	background-color: red;
+}
+
+.social a:hover {
+	background-color: #777;
+}
+
+
+
+.nav-container-login{
+  display: flex;
+}
+.nav-container-login p{
+  margin-top: 1rem;
+  font-size: 2.3rem;
+  line-height: 6rem;
+  font-weight: 600;
+
+}
+.nav-container.nav-container-login-header a{
+  text-decoration: none;
+  color: #333;
+  font-size: 2rem;
+}
+.nav-container.nav-container-login-header a:hover{
+  text-decoration: none;
+  color: #f72e22;
+  font-size: 2rem;
+}
+.nav-container-login a p{
+margin-top: 0.5rem;
+}
+
+
+.nav-container-login-main-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container.nav-container-login-header{
+  height: 8rem;
+}
+.grid_column-6.nav-container-login-main-img img{
+  width: 500px;
+  margin-left: 12rem;
+}
+.grid_column-6.nav-container-login-main-img{
+
+}
+.grid_column-6.body-login{
+  margin-top: 1rem;
+}
+.grid_column-6.body-login .container-login .header a{
+  padding-left: 1rem;
+  color: #f72e22;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.grid_column-6.body-login .container-login .header span{
+  padding-left: 1rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.subscribe-input.subscribe-input-login{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+.subscribe-input.subscribe-input-login{
+  background-color: white;
+
+}
+.text-login{
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.re-fo_text{
+	display: flex;
+	justify-content: space-around;
+	margin: 2rem 5rem;
+}
+.re-fo_text .container span{
+	font-size: 1.4rem;
+	margin-left: 1rem;
+	line-height: 2rem;
+	color: #777;
+}
+.re-fo_text span a{
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #777;
+	
+}
+.re-fo_text span a:hover{
+	color: #f72e22;
+	font-weight: 400;
+}
+.text-resgiter a{
+	padding-right: 5rem;
+	font-size: 1.2rem;
+	color: #333;
+}
+.container-login p a{
+	padding-right: 5rem;
+	font-size: 1.2rem;
+	color: #333;
+}
+.container-login p a:hover{
+	padding-right: 5rem;
+	font-size: 1.2rem;
+	color: #333;
+}
+.re-fo_text span{
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #777;
+	
+}
+.grid_column-6.nav-container-login-main-img{
+	display: flex;
+	flex-direction: column;
+}
+.grid_column-6.nav-container-login-main-img p{
+	font-size: 2.8rem;
+	font-family: indieFlower;
+	margin-left: 6rem;
+	
+}
+.Thomas{
+	display: flex;
+	align-items: right;
+	justify-content: flex-end;
+	margin-left: 15rem;
+	font-family: Lobster;
+}
+.Thomas p{
+	font-family: Lobster;
+}
+.grid_row_nav_login{
+	margin: 1rem 2rem;
+}

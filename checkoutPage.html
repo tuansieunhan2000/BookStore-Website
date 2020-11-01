@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/checkoutPage.css">
+    <link rel="stylesheet" href="./assets/css/nomalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/purchasingCSS.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cartPage.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.12.1/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/35c07c9ed2.js" crossorigin="anonymous"></script>
+
+    <title>Check out </title>
+</head>
+
+<body>
+    <header>
+        <div class="grid">
+            <div class="grid_row_nav">
+                <div class="nav-header">
+                    <ul class="nav-list">
+                        <li class="nav-item nav-item-left"><a href=""><i class="far fa-question-circle"></i>Can we help
+                                you?</a>
+                        </li>
+                        <li class="nav-item  nav-item-left"><a href=""><i class="fas fa-phone"></i>+1 246-345-0695</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href=""><i class="fas fa-map-marker-alt"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="far fa-heart"></i></a></li>
+                        <li class="nav-item"><a href="login.html"><i class="fas fa-user-alt"></i></a></li>
+                        <li class="nav-item"><a href="cartPage.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-container">
+                <a href="index.html"><img src="assets/img/logo.png"></a>
+                <ul class="menu-top-nav">
+                    <li><a href="#"> home <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub </a></li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#"> main page <i class="fas fa-angle-down angle-opa"></i> </a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> contact <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> about us <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> other <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search-top-nav">
+                    <input type="text" placeholder="Search...">
+                    <i class="fas fa-search top-nav-icon-search"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="checkout-title">
+        Checkout
+    </div>
+
+    <div class="checkout-coupon-containers grid">
+        have a coupon?
+        <div class="click-enter-coupon" id="show-coupon">click here to enter your code</div>
+    </div>
+
+    <div class="coupon-code-containers" id="coupon-code">
+        <input type="text" placeholder="coupon code" class="code-input col-5">
+        <div class="col-2 code-btn">Apply code</div>
+    </div>
+
+    <div class="checkout-details-containers frame">
+        <div class="checkout-details-left-containers col-8">
+            <div style="font-weight: bold; margin-bottom: 2rem;">
+                Billing details
+            </div>
+            <div class="checkout-name-input-containers">
+                <div class="col-6">
+                    <div style="font-weight: bold;">First name:</div>
+                    <input type="text" class="checkout-name-input">
+                </div>
+                <div class="col-6" style="font-weight: bold;">
+                    <div>Last name:</div>
+                    <input type="text" class="checkout-name-input">
+                </div>
+            </div>
+
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>Company name:</div>
+                    <input type="text" class="checkout-name-input">
+                </div>
+            </div>
+
+
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>country:</div>
+                    <select name="" id="" class="checkout-name-input">
+                        <option value="Afganistan">Afghanistan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="American Samoa">American Samoa</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Anguilla">Anguilla</option>
+                        <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Aruba">Aruba</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaijan">Azerbaijan</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Bahrain">Bahrain</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Belarus">Belarus</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Belize">Belize</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="United Arab Erimates">United Arab Emirates</option>
+                        <option value="United States of America">United States of America</option>
+                        <option value="Uraguay">Uruguay</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                        <option value="Vanuatu">Vanuatu</option>
+                        <option value="Vatican City State">Vatican City State</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+                        <option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+                        <option value="Wake Island">Wake Island</option>
+                        <option value="Wallis & Futana Is">Wallis & Futana Is</option>
+                        <option value="Yemen">Yemen</option>
+                        <option value="Zaire">Zaire</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>Street address:</div>
+                    <input type="text" class="checkout-name-input" placeholder="House number and street name">
+                </div>
+            </div>
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>Town / City *:</div>
+                    <input type="text" class="checkout-name-input" placeholder="Apartment, suite, init etc (optional)">
+                </div>
+            </div>
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>Postcode:</div>
+                    <input type="text" class="checkout-name-input">
+                </div>
+            </div>
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>Phone:</div>
+                    <input type="text" class="checkout-name-input">
+                </div>
+            </div>
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>email adress:</div>
+                    <input type="text" class="checkout-name-input">
+                </div>
+            </div>
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>some imformation:</div>
+                </div>
+            </div>
+            <div class="checkout-name-input-containers">
+                <div class="col-12" style="font-weight: bold;">
+                    <div>order note (optional):</div>
+                    <textarea name="" id="" rows="10" class="checkout-name-input"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="checkout-details-right-containers col-4">
+            <div class="checkout-details-right-first">
+                <div class="details-right-first-element-containers">
+                    <div class="checkout-details-right-first-element">
+                        <div class="checkout-details-right-first-element-left col-8" style="font-weight: bold;">Your order</div>
+                        <div class="checkout-details-right-first-element-right col-4">
+                            <i class="fas fa-plus plus-icon"></i>
+                            <i class="fas fa-minus minus-icon"></i>
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element">
+                            <div class="checkout-details-right-first-element-left col-8 element-spec">
+                                Touchscreen MP3 Player × 1
+                            </div>
+                            <div class="checkout-details-right-first-element-right col-4  element-spec">
+                                $100.22
+                            </div>
+                        </div>
+                        <div class="checkout-details-right-first-element">
+                            <div class="checkout-details-right-first-element-left col-8 element-spec">
+                                Life time circle × 1
+                            </div>
+                            <div class="checkout-details-right-first-element-right col-4  element-spec">
+                                $30.22
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-right-first-element-containers">
+                    <div class="checkout-details-right-first-element">
+                        <div class="checkout-details-right-first-element-left col-8" style="font-weight: bold;">
+                            Cart total
+                        </div>
+                        <div class="checkout-details-right-first-element-right col-4">
+                            <i class="fas fa-plus plus-icon"></i>
+                            <i class="fas fa-minus minus-icon"></i>
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element">
+                            <div class="checkout-details-right-first-element-left col-7 element-spec">
+                               subtotal
+                            </div>
+                            <div class="checkout-details-right-first-element-right col-5  element-spec">
+                                $34.22
+                            </div>
+                        </div>
+                        <div class="checkout-details-right-first-element">
+                            <div class="checkout-details-right-first-element-left col-7 element-spec">
+                                Shipping
+                            </div>
+                            <div class="checkout-details-right-first-element-right col-5  element-spec">
+                                Free Shipping
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-right-first-element-containers">
+                    <div class="checkout-details-right-first-element">
+                        <div class="checkout-details-right-first-element-left col-8" style="font-weight: bold;">
+                            Shipping
+                        </div>
+                        <div class="checkout-details-right-first-element-right col-4">
+                            <i class="fas fa-plus plus-icon"></i>
+                            <i class="fas fa-minus minus-icon"></i>
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element shipping-element">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="customRadio1" name="example" value="customEx">
+                                <label class="custom-control-label" for="customRadio1">Free shipping</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+                                <label class="custom-control-label" for="customRadio2">Flat rate: $15</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="customRadio3" name="example" value="customEx">
+                                <label class="custom-control-label" for="customRadio3">Local pickup:: $8</label>
+                              </div>
+                              <div>Shipping to Turkey. <span class="change-address">Change address</span></div>
+                        </div>
+
+                      
+                    </div>
+                </div>
+                <div class="details-right-first-element-containers">
+                    <div class="checkout-details-right-first-element">
+                        <div class="checkout-details-right-first-element-left col-8" style="font-weight: bold;">
+                            Coupon
+                        </div>
+                        <div class="checkout-details-right-first-element-right col-4">
+                            <i class="fas fa-plus plus-icon"></i>
+                            <i class="fas fa-minus minus-icon"></i>
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element shipping-element">
+                            <div class="sub-total-container">
+                                <div class="sub-total">
+                                    <div class="col-12 sub-total-font">
+                                            <input type="text" placeholder="code" class="coupon-input col-7">
+                                            <div class="coupon-btn col-5">apply coupon</div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                              
+                        </div>
+
+                      
+                    </div>
+                </div>
+                <div class="details-right-first-element-containers">
+                    <div class="checkout-details-right-first-element">
+                        <div class="checkout-details-right-first-element-left col-8" style="font-weight: bold;">Total Pay</div>
+                        <div class="checkout-details-right-first-element-right col-4">
+                            <i class="fas fa-plus plus-icon"></i>
+                            <i class="fas fa-minus minus-icon"></i>
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element">
+                            <div class="total-pay checkout-details-right-first-element-left col-8 element-spec">
+                               Total
+                            </div>
+                            <div class="total-pay checkout-details-right-first-element-right col-4  element-spec">
+                                $400.22
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-right-first-element-containers">
+                    <div class="checkout-details-right-first-element">
+                        <div class="checkout-details-right-first-element-left col-8" style="font-weight: bold;">Payment</div>
+                        <div class="checkout-details-right-first-element-right col-4">
+                            <i class="fas fa-plus plus-icon"></i>
+                            <i class="fas fa-minus minus-icon"></i>
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element">
+                            <div class=" checkout-details-right-first-element-left col-8 element-spec">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="customRadio4" name="example1" value="customEx">
+                                    <label class="custom-control-label" for="customRadio4">Direct bank transfer</label>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="payment-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nesciunt corporis aspernatur ullam neque aperiam, dolores velit sequi at delectus cumque nam deleniti expedita? Laborum, cumque ad sit, veritatis facilis neque molestias dolores, magni voluptatem ullam similique eius optio perspiciatis.
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element">
+                            <div class=" checkout-details-right-first-element-left col-8 element-spec">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="customRadio5" name="example1" value="customEx">
+                                    <label class="custom-control-label" for="customRadio5">Check payment</label>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="payment-text">
+                            Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                        </div>
+                    </div>
+                    <div class="spec-containers">
+                        <div class="checkout-details-right-first-element">
+                            <div class=" checkout-details-right-first-element-left col-8 element-spec">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="customRadio6" name="example1" value="customEx">
+                                    <label class="custom-control-label" for="customRadio6">Cash on delivery</label>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="payment-text">
+                            Pay with cash upon delivery.
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class=" btn-dark btn-pay">
+                Complete payment
+        </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="purchasing-subscribe-container">
+        <div class="subscribe-title ">Join our newsletter</div>
+        <div style="font-size: 1.5rem">Signup to be the first to hear about exclusive deals, special offers and upcoming
+            collections</div>
+        <div class="subscribe-input">
+            <div class="col-10 subscribe-input-input"><input type="text"
+                    placeholder="Enter email for weekly newsletter"></div>
+
+            <div class="col-2 btn-dark subscribe-input-btn">Subscribe</div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid ">
+            <div class="grid_row footer-top">
+                <div class="grid_column-4 footer-first-col">
+                    <img src="assets/img/main_logo.png" alt="">
+                    <p>1418 River Drive, Suite 35 Cottonhall, CA 9622
+                        United States</p>
+                    <p><a href=""><i class="fas fa-phone footer-first-col-icon "></i>+1 246-345-0695</a></p>
+                    <p><a href=""><i class="far fa-envelope footer-first-col-icon"></i>sale@bookworm.com</a></p>
+
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Explore</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">About as</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Sitemap</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Bookmarks</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Sign in/join</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>&copy; Puta & Đạt Ma</p>
+                </div>
+                <div class="footer-bottom-right">
+                    <p><img src="assets/img/partner.png" alt=""></p>
+                    <div class="dropdown">
+                        <button type="button" class="btn  dropdown-toggle language " data-toggle="dropdown">
+                            English (United States)
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">English (United States)</a>
+                            <a class="dropdown-item" href="#">Deutsch</a>
+                            <a class="dropdown-item" href="#">Français</a>
+                            <a class="dropdown-item" href="#">Español</a>
+                        </div>
+                    </div>
+                    <div class="dropdown ">
+                        <button type="button" class="btn  dropdown-toggle currency" data-toggle="dropdown">
+                            $ USD
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">$ USD</a>
+                            <a class="dropdown-item" href="#">€ EUR</a>
+                            <a class="dropdown-item" href="#">₺ TL</a>
+                            <a class="dropdown-item" href="#">₽ RUB</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="assets/js/checkout.js"></script>
+</body>
+
+</html>

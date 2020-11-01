@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart page</title>
+    <link rel="stylesheet" href="cartPage.html">
+    <link rel="stylesheet" href="./assets/css/nomalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets//css//purchasingCSS.css">
+    <link rel="stylesheet" href="./assets/css/cartPage.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.12.1/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/35c07c9ed2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header-nav -->
+    <header>
+        <div class="grid">
+            <div class="grid_row_nav">
+                <div class="nav-header">
+                    <ul class="nav-list">
+                        <li class="nav-item nav-item-left"><a href=""><i class="far fa-question-circle"></i>Can we help
+                                you?</a>
+                        </li>
+                        <li class="nav-item  nav-item-left"><a href=""><i class="fas fa-phone"></i>+1 246-345-0695</a>
+                        </li>
+                    </ul>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href=""><i class="fas fa-map-marker-alt"></i></a></li>
+                        <li class="nav-item"><a href=""><i class="far fa-heart"></i></a></li>
+                        <li class="nav-item"><a href="login.html"><i class="fas fa-user-alt"></i></a></li>
+                        <li class="nav-item"><a href="cartPage.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-container">
+                <a href="index.html"><img src="assets/img/logo.png"></a>
+                <ul class="menu-top-nav">
+                    <li><a href="#"> home <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub </a></li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#"> main page <i class="fas fa-angle-down angle-opa"></i> </a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> contact <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> about us <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> other <i class="fas fa-angle-down angle-opa"></i></a>
+                        <ul class="menu-top-nav-sub">
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                            <li><a href="#"> home sub</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search-top-nav">
+                    <input type="text" placeholder="Search...">
+                    <i class="fas fa-search top-nav-icon-search"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!---------------------------------->
+    <div class="purchasing-label-container grid">
+        <div class="purchasing-label-left col-4">Shop Single</div>
+        <div class="purchasing-label-right col-8">
+            <div class="purchasing-label-right-text">Home</div>
+            <i class="fas fa-chevron-right fa-sm"></i>
+            <div class="purchasing-label-right-text">Shop</div>
+            <i class="fas fa-chevron-right fa-sm"></i>
+            <div class="purchasing-label-right-text">Shop single</div>
+        </div>
+    </div>
+    <!----------------->
+    <div class="cart-alert">
+        your cart: 3 items
+    </div>
+    <!----------------->
+    <div class="cart-main-containers grid">
+        <div class="cart-main-left col-9">
+            <div class="cart-main-left-content cmlc-title">
+                <div class="lc-fl col-5"> Products</div>
+                <div class="lc-fl  col-2">Price</div>
+                <div class="col-2 lc-fl  cart-main-left-content-quantity">Quantity</div>
+                <div class="col-2 lc-fl ">Total</div>
+                <div class="col-1 lc-fl "></div>
+            </div>
+            <!--------->
+            <div class="cart-main-left-content">
+                <div class="col-5 cart-main-left-content-img">
+                    <div class="col-3">
+                        <img src="./assets/img/60x92/img1.jpg" alt="">
+                    </div>
+                    <div class="col-9  cart-main-left-content-img-text">
+                        <div class="cart-text-title">The side of a life time</div>
+                        <div class="cart-text-author">Joseph D</div>
+                    </div>
+
+                </div>
+                <div class="col-2 ccf">$40.55</div>
+                <div class="col-2 ccf">
+                    <div class="main-purchasing-right-add-cart-left col-12 ss">
+                        <div class="cart-left-btn cart-flex cart-flex-font ">-</div>
+                        <div class="cart-left-number cart-flex number-purchasing" >1</div>
+                        <div class="cart-left-btn cart-flex cart-flex-font">+</div>
+                    </div>
+
+                </div>
+                <div class="col-2 ccf">
+                    $40.55
+                </div>
+                <div class="col-1 ccf">
+                    <i class="fas fa-times cart-content-icon"></i>
+                </div>
+            </div>
+            <!--------->
+            <!--------->
+            <div class="cart-main-left-content">
+                <div class="col-5 cart-main-left-content-img">
+                    <div class="col-3">
+                        <img src="./assets/img/60x92/img2.jpg" alt="">
+                    </div>
+                    <div class="col-9  cart-main-left-content-img-text">
+                        <div class="cart-text-title">rural of aster</div>
+                        <div class="cart-text-author">Joseph D</div>
+                    </div>
+
+                </div>
+                <div class="col-2 ccf">$70.35</div>
+                <div class="col-2 ccf">
+                    <div class="main-purchasing-right-add-cart-left col-12 ss">
+                        <div class="cart-left-btn cart-flex cart-flex-font ">-</div>
+                        <div class="cart-left-number cart-flex  number-purchasing" >1</div>
+                        <div class="cart-left-btn cart-flex cart-flex-font">+</div>
+                    </div>
+
+                </div>
+                <div class="col-2 ccf">
+                    $70.35
+                </div>
+                <div class="col-1 ccf">
+                    <i class="fas fa-times cart-content-icon"></i>
+                </div>
+            </div>
+            <!--------->
+            <!--------->
+            <div class="cart-main-left-content">
+                <div class="col-5 cart-main-left-content-img">
+                    <div class="col-3">
+                        <img src="./assets/img/60x92/img3.jpg" alt="">
+                    </div>
+                    <div class="col-9  cart-main-left-content-img-text">
+                        <div class="cart-text-title">Lorem, ipsum dolor.</div>
+                        <div class="cart-text-author">Joseph D</div>
+                    </div>
+
+                </div>
+                <div class="col-2 ccf">$104.99</div>
+                <div class="col-2 ccf">
+                    <div class="main-purchasing-right-add-cart-left col-12 ss">
+                        <div class="cart-left-btn cart-flex cart-flex-font ">-</div>
+                        <div class="cart-left-number cart-flex  number-purchasing" >1</div>
+                        <div class="cart-left-btn cart-flex cart-flex-font">+</div>
+                    </div>
+
+                </div>
+                <div class="col-2 ccf">
+                    $104.99
+                </div>
+                <div class="col-1 ccf">
+                    <i class="fas fa-times cart-content-icon"></i>
+                </div>
+            </div>
+            <!--------->
+        </div>
+        <!------------------------------------>
+
+        <div class="cart-main-right col-3">
+            <div class="cart-main-right-title-container">
+                <div class="cart-main-right-title">
+                    <div class="col-10 cart-title-font">
+                        Cart Totals
+                    </div>
+                    <div class="col-2 cart-right-spec">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon"></i>
+                    </div>
+                </div>
+                <div class="sub-total-container">
+                    <div class="sub-total">
+                        <div class="col-8 sub-total-font">
+                            subtotal
+                        </div>
+                        <div class="col-4 cart-main-right-prices  sub-total-font">
+                            $104.99
+                        </div>
+                    </div>
+                    <div class="sub-total">
+                        <div class="col-8 sub-total-font">
+                            Shipping
+                        </div>
+                        <div class="col-4 cart-main-right-prices  sub-total-font">
+                            Free shipping
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------->
+            <div class="cart-main-right-title-container">
+                <div class="cart-main-right-title">
+                    <div class="col-10 cart-title-font">
+                        Shipping
+                    </div>
+                    <div class="col-2 cart-right-spec">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon"></i>
+                    </div>
+                </div>
+                <div class="sub-total-container">
+                    <div class="sub-total">
+                        <div class="col-8 sub-total-font shipping-spec">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="customRadio1" name="example1"
+                                    value="customEx">
+                                <label class="custom-control-label" for="customRadio1">Free shipping</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="customRadio2" name="example1"
+                                    value="customEx">
+                                <label class="custom-control-label" for="customRadio2">Flat rate: $15</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="customRadio3" name="example1"
+                                    value="customEx">
+                                <label class="custom-control-label" for="customRadio3">Local pickup:: $8</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-total">
+                        <div class="col-8 sub-total-font">
+                            Ship to Vietnam
+                        </div>
+                        <div class="col-4 cart-main-right-prices  sub-total-font change-address">
+                            Change address
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------->
+            <div class="cart-main-right-title-container">
+                <div class="cart-main-right-title">
+                    <div class="col-10 cart-title-font">
+                        Coupon
+                    </div>
+                    <div class="col-2 cart-right-spec">
+                        <i class="fas fa-minus minus-icon"></i>
+                        <i class="fas fa-plus plus-icon"></i>
+                    </div>
+                </div>
+                <div class="sub-total-container">
+                    <div class="sub-total">
+                        <div class="col-12 sub-total-font">
+                                <input type="text" placeholder="code" class="coupon-input col-7">
+                                <div class="coupon-btn col-5">apply coupon</div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------->
+            <div class=" cart-total">
+                <div col-2>Total</div>
+                <div class="col-10 cart-total-end">$100.33</div>
+            </div>
+            <div class="check-orders">
+               <a href="checkoutPage.html">go to details</a> 
+            </div>
+        </div>
+    </div>
+
+    <!----------------->
+
+
+    <!---------------------------------->
+    <div class="purchasing-subscribe-container">
+        <div class="subscribe-title ">Join our newsletter</div>
+        <div style="font-size: 1.5rem">Signup to be the first to hear about exclusive deals, special offers and upcoming
+            collections</div>
+        <div class="subscribe-input">
+            <div class="col-10 subscribe-input-input"><input type="text"
+                    placeholder="Enter email for weekly newsletter"></div>
+
+            <div class="col-2 btn-dark subscribe-input-btn">Subscribe</div>
+        </div>
+    </div>
+    <!---------------------------------->
+    <footer class="footer">
+        <div class="grid ">
+            <div class="grid_row footer-top">
+                <div class="grid_column-4 footer-first-col">
+                    <img src="assets/img/main_logo.png" alt="">
+                    <p>1418 River Drive, Suite 35 Cottonhall, CA 9622
+                        United States</p>
+                    <p><a href=""><i class="fas fa-phone footer-first-col-icon "></i>+1 246-345-0695</a></p>
+                    <p><a href=""><i class="far fa-envelope footer-first-col-icon"></i>sale@bookworm.com</a></p>
+
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Explore</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">About as</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Sitemap</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Bookmarks</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Sign in/join</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>&copy; Puta & Đạt Ma</p>
+                </div>
+                <div class="footer-bottom-right">
+                    <p><img src="assets/img/partner.png" alt=""></p>
+                    <div class="dropdown">
+                        <button type="button" class="btn  dropdown-toggle language " data-toggle="dropdown">
+                            English (United States)
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">English (United States)</a>
+                            <a class="dropdown-item" href="#">Deutsch</a>
+                            <a class="dropdown-item" href="#">Français</a>
+                            <a class="dropdown-item" href="#">Español</a>
+                        </div>
+                    </div>
+                    <div class="dropdown ">
+                        <button type="button" class="btn  dropdown-toggle currency" data-toggle="dropdown">
+                            $ USD
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">$ USD</a>
+                            <a class="dropdown-item" href="#">€ EUR</a>
+                            <a class="dropdown-item" href="#">₺ TL</a>
+                            <a class="dropdown-item" href="#">₽ RUB</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="assets/js/cartPage.js"></script>
+   
+</body>
+
+</html>

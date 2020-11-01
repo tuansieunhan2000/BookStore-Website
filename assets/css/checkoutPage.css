@@ -1,0 +1,151 @@
+.frame{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.checkout-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.checkout-coupon-containers{
+    border: thin solid #DDD;
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.click-enter-coupon{
+    color: red;
+    margin-left: 1rem;
+    cursor: pointer;
+    opacity: 0.6;
+    user-select: none;
+}
+.click-enter-coupon:hover{
+    opacity: 1;
+}
+.coupon-code-containers{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 2rem;
+    height: 13rem;
+    margin-top: 2rem;
+    border: thin solid red;
+    display: none;
+    height: 12rem;
+    align-items: center;
+    font-size: 2rem;
+  
+}
+.code-input{
+    height: 35%;
+    width: 100%;
+
+}
+.code-btn{
+    height: 35%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    border-radius: 2px;
+}
+.code-btn:hover{
+    background-color: gray;
+    color: black;
+}
+
+/***********************************/
+.checkout-details-containers{
+    display: flex;
+    margin-top: 2rem;
+}
+.checkout-details-left-containers{
+    display: flex;
+    padding: 2rem;
+    font-size: 1.5rem;
+    flex-direction: column;
+    border: thin solid black;
+}
+.checkout-name-input-containers{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.checkout-name-input{
+    width: 100%;
+    border: thin solid #DDD;
+    padding: 0.5rem 2rem;
+    outline: none;
+    transition: 0.2s;
+}
+.checkout-name-input:focus{
+    border: thin solid black;
+}
+
+/***********************************/
+
+.checkout-details-right-containers{
+    display: flex;
+    flex-direction: column;
+   
+}
+.details-right-first-element-containers{
+    border-bottom: 2px solid #DDD;
+    padding: 1rem;      
+}
+.checkout-details-right-first{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.checkout-details-right-first-element{
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+.shipping-element{
+    flex-direction: column;
+}
+.checkout-details-right-first-element-left{
+    font-size: 2rem;
+}
+.checkout-details-right-first-element-right{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+.plus-icon{
+    display: none;
+}
+.element-spec{
+    font-size: 1rem;
+}
+.btn-pay{
+    margin-top: 2rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.total-pay{
+    font-size: 2rem;
+}
+.payment-text{
+    padding: 0 4rem;
+}
+.spec-containers{
+    margin-top: 1rem;
+}
